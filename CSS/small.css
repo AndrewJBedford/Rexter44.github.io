@@ -7,7 +7,7 @@ html {
   body {
     background-color:  blue;
     font-family: 'Oxygen', sans-serif;
-    font-size: 12px;
+    font-size: 16px;
     color:  whitesmoke;
     margin: 1em;
   }
@@ -33,6 +33,7 @@ html {
   }
   p {
     color: whitesmoke;
+    font-size: 16px;
   }
   header,footer {
     background-color: red;
