@@ -12,7 +12,7 @@ body {
 }
 header{
     background-color: #0d7be9;
-    color:white;
+    color:whitesmoke;
 }
 header, main {
   text-align: center;
@@ -50,7 +50,7 @@ footer {
     text-align: center;
     padding: 20px 20px 20px 20px;
     background-color:#0d7be9;
-    color: white;
+    color: whitesmoke;
   }
   a {
     color: rgb(36, 243, 9);
