@@ -2,7 +2,7 @@ header,footer,nav {
     max-width: 100%;
 }
 nav {
-    background-color: #0075A2;
+    background-color: #FAC748;
     color: #230903;
     text-align: center;
     font-size: 1.5rem;
@@ -47,7 +47,7 @@ html {
     background-color: whitesmoke;
 }
 header {
-    background-color: #FAC748;
+    background-color:#0075A2;
     text-align: center;
     padding: 1rem;
     display: flex;
