@@ -1,0 +1,105 @@
+header,footer,nav {
+    max-width: 100%;
+}
+nav {
+    background-color: #0075A2;
+    color: #230903;
+    text-align: center;
+    font-size: 1.5rem;
+}
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+}
+nav a:link,
+nav a:visited {
+    color: #230903;
+}
+nav ul li a {
+    display: block;
+}
+nav ul.hide_navigation {
+    display: none;
+}
+nav a:hover {
+    color: whitesmoke;
+    background-color: #230903;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li a {
+    padding: .8rem 2%;
+    border-top: 1px solid rgba(0, 0, 0, 0.98);
+}
+.active {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+button {
+    color: #230903;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+html {
+    background-color: whitesmoke;
+}
+header {
+    background-color: #FAC748;
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+main {
+    background-color: #2d8f09;
+    padding: 1.5rem;
+}
+img {
+    width: auto;
+    height: auto;
+}
+h1 {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 3rem;
+}
+h2,h3,h4,
+.motto {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+h2 {
+    font-size: 2.5rem;
+}
+h3 {
+    font-size: 2rem;
+}
+h4 {
+    font-size: 1.5rem;
+}
+.motto {
+    font-size: 1.3rem;
+}
+p {
+    color: #230903;
+    font-size: 1.1rem;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+a {
+    color: #230903;
+    font-size: 1.1rem;
+    text-decoration: none;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+.hero,.forecast-container,.article-container,.contact-container {
+    margin: 20px;
+    background-color: whitesmoke;
+    border: 2px solid #230903;
+}
+footer {
+    background-color: #0075A2;
+    color: #230903;
+    padding: 1em;
+    text-align: center;
+}
