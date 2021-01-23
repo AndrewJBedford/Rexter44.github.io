@@ -37,8 +37,14 @@
             Friday at the city park rangers station. </h4></div>
         <h2>Preston Idaho</h2>
         <div class="hero-container">
-            <div class="hero"> <img class="hero-img" src="../PrestonHomePage2/images/preston-idaho-area.jpg"
-                    alt="Preston mountain side"> </div>
+            <div class="hero"> 
+                <picture class="hero-picture">
+                    <source srcset="../PrestonHomePage2/images/Large .jpeg"
+                        media="(min-width:35rem) and (max-width:65rem)">
+                    <source srcset="images/" media="(min-width:65rem)">
+                    <img class="hero-img" src="images/" alt="image of mountain">
+                </picture>
+            </div>
             <section class="weatherSum">
                 <h3>Weather Summary &#9925;</h3>
                 <p><strong>Currently:</strong> Cloudy</p>
