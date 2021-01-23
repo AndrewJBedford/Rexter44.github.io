@@ -39,19 +39,19 @@
         <div class="hero-container">
             <div class="hero"> 
                 <picture class="hero-picture">
-                    <source srcset="../PrestonHomePage2/images/Large .jpeg"
+                    <source srcset="../PrestonHomePage2/images/MediumFranklin.jpeg"
                         media="(min-width:35rem) and (max-width:65rem)">
-                    <source srcset="images/" media="(min-width:65rem)">
-                    <img class="hero-img" src="images/" alt="image of mountain">
+                    <source srcset="../PrestonHomePage2/images/LargeFranklin.jpeg" media="(min-width:65rem)">
+                    <img class="hero-img" src="../PrestonHomePage2/images/SmallFranklin.jpeg" alt="image of mountain">
                 </picture>
             </div>
             <section class="weatherSum">
                 <h3>Weather Summary &#9925;</h3>
-                <p><strong>Currently:</strong> Cloudy</p>
-                <p><strong>High:</strong> 56 &#176; F</p>
-                <p><strong>Wind Chill:</strong> 49 &#176;F</p>
-                <p><strong>Humidity:</strong> 30%</p>
-                <p><strong>Wind Speed:</strong> 8 MPH</p>
+                <li>Currently: <span id="current">Rainy</span></li>
+                <li>Temp: <span id="temp">49</span>&deg;F</li>
+                <li>Wind Chill: <span id="wind-chill"></span></li>
+                <li>Humidity: <span id="humidity">93</span>%</li>
+                <li>Wind Speed: <span id="wind-speed">88</span> mph</li>
             </section>
         </div>
         <div class="forecast-container">
