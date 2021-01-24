@@ -39,11 +39,11 @@
         <div class="hero-container">
             <div class="hero"> 
                 <picture class="hero-picture">
-                    <source srcset="../PrestonHomePage2/images/MediumFranklin.jpg"
-                        media="(min-width: 601px) and (max-width: 1026px)">
-                    <source srcset="../PrestonHomePage2/images/LargeFranklin.jpg" 
-                    media="(max-width: 600px)">
-                    <img class="hero-img" src="../PrestonHomePage2/images/SmallFranklin.jpg" alt="image of sunny clouds">
+                    <source media="(max-width:600px)"
+                    srcset="../PrestonHomePage2/images/SmallFranklin.jpg">
+                <source media="(max-width: 1026px) and (min-width: 601px)"
+                    srcset="../PrestonHomePage2/images/MediumFranklin.jpg">
+                <img src="../PrestonHomePage2/images/LargeFranklin.jpg" alt="image of sunny clouds">
                 </picture>
             </div>
             <section class="weatherSum">
