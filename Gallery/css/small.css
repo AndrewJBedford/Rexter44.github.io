@@ -66,7 +66,7 @@ img {
     height: auto;
 }
 h1 {
-    font-family: 'Berkshire Swash', cursive;
+    font-family: 'Fredoka One', cursive;
     font-size: 3rem;
 }
 h2,h3,h4,
@@ -87,7 +87,8 @@ h4 {
     font-size: 1.3rem;
 }
 p,
-.temp {
+.temp,
+figcaption{
     color: #230903;
     font-size: 1.1rem;
     font-family: 'Archivo Narrow', sans-serif;
@@ -126,6 +127,14 @@ a {
 .hero,.forecast-container,.article-container,.contact-container 
 {
     margin: 20px;
+    background-color: whitesmoke;
+    border: 2px solid #230903;
+}
+.gallery,
+.hero,
+.forecast-container,
+.article-container,
+.contact-container {
     background-color: whitesmoke;
     border: 2px solid #230903;
 }
@@ -202,6 +211,24 @@ art
     padding: 0 5px 5px;
     font-size: 0.8rem;
     text-align: center;
+}
+img[data-src] {
+    filter: blur(0.2em);
+}
+img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+.gallery {
+    width: 300px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+figcaption {
+    display: block;
+    text-align: center;
+    padding: 1rem;
 }
 footer {
     background-color: #FAC748;
