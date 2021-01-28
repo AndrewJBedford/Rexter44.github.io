@@ -1,21 +1,26 @@
 @media only screen and (min-width: 65rem) {
-    footer,
-    main {
+    main,footer {
         max-width: 960px;
         margin: auto;
     }
-    header,
-    nav {
+   
+    header,nav {
         max-width: 100%;
     }
+
     nav ul {
         display: flex;
     }
+
     .contact-container {
         align-items: center;
     }
-    .social {
-        display: block;
-        margin: auto;  
+   
+    .img_gallery{
+        grid-template-columns: 1fr 1fr 1fr;
     }
+
+.gallery:hover {
+    box-shadow: 0 0 50px #333;
+}
 }
