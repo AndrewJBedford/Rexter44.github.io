@@ -56,8 +56,6 @@ header h1, header h3{
     margin:10px 0;
     text-align: center;
     align-items: center;
-    font-family: 'Berkshire Swash', cursive;
-    font-size: 3rem;
 }
 main {
     background-color: #2d8f09;
@@ -68,7 +66,7 @@ img {
     height: auto;
 }
 h1 {
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Berkshire Swash', cursive;
     font-size: 3rem;
 }
 h2,h3,h4,
