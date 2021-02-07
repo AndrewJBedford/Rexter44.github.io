@@ -1,19 +1,20 @@
 @media only screen and (min-width: 65rem) {
-    main,
-    footer {
+    footer,
+    main {
         max-width: 960px;
         margin: auto;
     }
-
     header,
     nav {
         max-width: 100%;
     }
-
     nav ul {
         display: flex;
     }
-
+     .social {
+        display: block;
+        margin: auto;  
+    }
     .contact-container {
         align-items: center;
     }
