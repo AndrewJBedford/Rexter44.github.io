@@ -26,8 +26,6 @@ fetch(requestURL)
              image.setAttribute("alt", `Image of ${towns[i].name}`);
              card.appendChild(image);
             
-
-             
             //town name
             let h2 = document.createElement('h2');
             h2.textContent = towns[i].name;
