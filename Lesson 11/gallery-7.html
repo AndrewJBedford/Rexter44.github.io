@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Gallery page will display images for the weather site." />
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/normalize.css">
+    <link rel="stylesheet" href="../Gallery/css/small.css">
+    <link rel="stylesheet" href="../Gallery/css/medium.css">
+    <link rel="stylesheet" href="../Gallery/css/large.css">
+    <title>Sunnyside Weather | Gallery </title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="./images/iconfinder_weather_2_2682849.png" alt="sunnyside weather logo">
+        <section>
+            <h1>Sunnyside Weather</h1>
+            <h3 class="motto">Whatever the weather, whatever the season Sunnyside </h3>
+        </section>
+    </header>
+    <nav>
+        <button onclick="toggleMenu()"> &#9776; Menu </button>
+        <ul id="menu" class="hide_navigation">
+            <li><a href="../lesson9/index.html">Home</a></li>
+            <li><a href="../lesson10/preston-10.html"> Preston </a></li>
+            <li><a href="#"> Soda Springs</a></li>
+            <li><a href="#"> Fish Haven</a></li>
+            <li><a href="../Storm/stormcenter.html"> Storm Center</a></li>
+            <li class="active"><a href="../Gallery/gallery-7.html"> Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Gallery</h2>
+        <div class="img_gallery">
+            <figure class="gallery">
+                <img class="galleryimg" src="../Gallery/images/placeholder-300x400.png"
+                    data-src="../Gallery/images/gallery-6.jpg" alt="image 1">
+
+                <figcaption>Clear Skies in Preston</figcaption>
+            </figure>
+            <figure class="gallery">
+                <img class="galleryimg" src="../Gallery/images/placeholder-300x400.png"
+                    data-src="../Gallery/images/gallery-3.jpg" alt="image 2">
+
+                <figcaption>Cloudy at Fish Haven</figcaption>
+            </figure>
+            <figure class="gallery">
+                <img class="galleryimg" src="../Gallery/images/placeholder-300x400.png"
+                    data-src="../Gallery/images/gallery-2.jpg" alt="image 3">
+
+                <figcaption>Sunny Skies in Soda Springs</figcaption>
+            </figure>
+            <figure class="gallery">
+                <img class="galleryimg" src="../Gallery/images/placeholder-300x400.png"
+                    data-src="../Gallery/images/gallery-1.jpg" alt="image 4">
+
+                <figcaption> Foggy Weather in Preston </figcaption>
+            </figure>
+            <figure class="gallery">
+                <img class="galleryimg" src="../Gallery/images/placeholder-300x400.png"
+                    data-src="../Gallery/images/gallery-7.jpg" alt="image 6">
+
+                <figcaption>Snowy Trails in Fish Haven</figcaption>
+            </figure>
+            <figure class="gallery">
+                <img class="galleryimg" src="../Gallery/images/placeholder-300x400.png"
+                    data-src="../Gallery/images/gallery-5.jpg" alt="image 5">
+
+                <figcaption>Cloudy in Soda Springs </figcaption>
+            </figure>
+            <figure class="gallery">
+                <img class="galleryimg" src="../Gallery/images/placeholder-300x400.png"
+                    data-src="../Gallery/images/gallery-8.jpg" alt="image 7">
+
+                <figcaption> Rain Fall in Preston </figcaption>
+            </figure>
+            <figure class="gallery">
+                <img class="galleryimg" src="../Gallery/images/placeholder-300x400.png"
+                    data-src="../Gallery/images/gallery-4.jpg" alt="image 8">
+
+                <figcaption> Clear Weather at the Lake </figcaption>
+            </figure>
+            <figure class="gallery">
+                <img class="galleryimg" src="../Gallery/images/placeholder-300x400.png"
+                    data-src="../Gallery/images/gallery-9.jpg" alt="image 9">
+
+                <figcaption> Rainfall in the Mountains</figcaption>
+            </figure>
+        </div>
+    </main>
+        <footer>
+<p>&copy;<span id="year"></span> | Sunnyside Weather | Attributions | <a href="/index.html"> <a>Andrew Bedford</a> | <span id="currentDate"></span></p>
+        </footer>
+    <script src="js/gallery.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/date.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+    </script>
+</body>
+</html>
