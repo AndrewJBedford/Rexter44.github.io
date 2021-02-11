@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The weather home page for Preston Idaho weather and Information in Preston."/>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/normalize.css">
+    <link rel="stylesheet" href="../weather/css/small.css">
+    <link rel="stylesheet" href="../weather/css/medium.css">
+    <link rel="stylesheet" href="../weather/css/large.css">
+    <title>Sunnyside Weather | Preston Idaho </title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="../weather/images/iconfinder_weather_2_2682849.png" alt="sunnyside weather logo">
+        <section>
+            <h1>Sunnyside Weather</h1>
+        <h3 class="motto">Whatever the weather, whatever the season Sunnyside</h3>
+    </section>
+    </header>
+    <nav>
+        <button onclick="toggleMenu()"> &#9776; Menu </button> 
+        <ul id ="menu" class="hide_navigation">
+            <li><a href="../index.html">Home</a></li>
+            <li class="active"><a href="preston.html"> Preston </a></li>
+            <li><a href="#"> Soda Springs</a></li>
+            <li><a href="#"> Fish Haven</a></li>
+            <li><a href="#"> Storm Center</a></li>
+            <li><a href="#"> Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Preston Idaho</h2>
+        <div class="hero">Hero and Weather Summary</div>
+        <div class="forecast-container">5 Day Forecast</div>
+        <div class="article-container">Article</div>
+        <div class="contact-container">Contact Information</div>
+        <p></p>
+    </main>
+    <footer>
+        <p>&copy;<span id="year"></span> | Sunnyside Weather | Attributions | Andrew Bedford | <span id="currentDate"></span></p> 
+    </footer>
+    <script src="../weather/js/menu.js"></script>
+    <script src="../weather/js/date.js"></script>
+</body>
+</html>
