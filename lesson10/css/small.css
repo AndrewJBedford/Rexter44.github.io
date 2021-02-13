@@ -113,11 +113,11 @@ a {
 .weatherSum {
     top: 10px;
     left: 10px;
-    background: #FAC748;
+    background: rgba(20, 158, 238, 0.561);
     padding: .5rem;
     box-shadow: 0 0 30px #230903;
     border: 2px solid #230903;
-    margin: 10px;
+    margin: 20px;
     text-align: center;
 }
 .result {
