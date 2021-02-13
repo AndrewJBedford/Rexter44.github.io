@@ -81,15 +81,14 @@
     }
 
     .article-container {
-        clear: both;
-        display: table;
+        display: grid;
         grid-template-columns: 1fr 1fr;
     }
 
     .article-title {
         text-align: left;
     }
-    
+
     .article-content {
         grid-column: 1;
     }
