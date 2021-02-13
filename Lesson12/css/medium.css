@@ -87,8 +87,6 @@
     .article-title {
         text-align: left;
     }
-
-    .article-picture,
     div.cards section:nth-child(even) img {
         float: right;
         margin-left: auto;
@@ -96,7 +94,12 @@
         width: auto;
         height: auto;
     }
-
+    
+    .articleimg {
+        grid-column: 2;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .prestonMap {
         display: block;
         width: 50%;
