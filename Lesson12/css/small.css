@@ -89,8 +89,7 @@ h4 {
     font-size: 1.3rem;
 }
 p,
-.forecast-col .forecastTemp,
-figcaption {
+.forecast-col .forecastTemp {
      color: #230903;
     font-size: 1.1rem;
     font-family: 'Archivo Narrow', sans-serif;
