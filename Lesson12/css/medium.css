@@ -30,7 +30,9 @@
 
     .weatherSum {
         position: absolute;
-        background: #0075A2;
+        background: rgba(20, 158, 238, 0.561);
+        top: 20px;
+        left: 20px;
     }
 
     .forecast-container {
@@ -94,7 +96,7 @@
         width: auto;
         height: auto;
     }
-    
+
     .articleimg {
         grid-column: 2;
         margin-left: auto;
