@@ -81,14 +81,19 @@
     }
 
     .article-container {
-        content: "";
         clear: both;
         display: table;
+        grid-template-columns: 1fr 1fr;
     }
 
     .article-title {
         text-align: left;
     }
+    
+    .article-content {
+        grid-column: 1;
+    }
+
     div.cards section:nth-child(even) img {
         float: right;
         margin-left: auto;
