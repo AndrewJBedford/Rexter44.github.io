@@ -26,12 +26,11 @@
         margin: 10px auto;
         width: 100%;
         height: 350px;
-
     }
 
     .weatherSum {
         position: absolute;
-        background: #FAC748;
+        background: #0075A2;
     }
 
     .forecast-container {
@@ -56,7 +55,7 @@
 
     .forecast-col {
         flex: 1 1 auto;
-        background-color: #0075A2;
+        background-color: #FAC748;
         border-bottom: 1px solid #230903;
         border-left: 1px solid #230903;
         text-align: center;
@@ -64,7 +63,7 @@
 
     .forecast-col:hover {
         opacity: 0.9;
-        background-color: rgba(20, 158, 238, 0.561);
+        background-color: #0075A2;
         color: whitesmoke;
     }
 
