@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This weather site is for Preston Idaho. 
+    This page will display weather and information in Preston."/>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/normalize.css">
+    <link rel="stylesheet" href="../Lesson12/css/small.css">
+    <link rel="stylesheet" href="../Lesson12/css/medium.css">
+    <link rel="stylesheet" href="../Lesson12/css/large.css">
+    <title>Sunnyside Weather | Preston ID </title>
+</head>
+<body id="preston">
+<header>
+         <a href = "../Lesson9/index.html"> <img src= "../Lesson12/images/iconfinder_weather_2_2682849.png" alt="Sunnyside Logo"></a>           
+        <section>
+            <h1>Sunnyside Weather</h1>
+        <h3 class="motto">Whatever the weather, whatever the season Sunnyside</h3>
+    </section>
+    </header>
+    <nav>
+        <button onclick="toggleMenu()"> &#9776; Menu </button>
+        <ul id="menu" class="hide_navigation">
+            <li><a href="../lesson9/index.html">Home</a></li>
+            <li class="active"><a href="../Lesson12/preston.html"> Preston </a></li>
+            <li><a href="../Lesson12/sodasprings.html"> Soda Springs</a></li>
+            <li><a href="../Lesson12/fishhaven.html"> Fish Haven</a></li>
+            <li><a href="../Storm/stormcenter.html"> Storm Center</a></li>
+            <li><a href="../Gallery/gallery-7.html"> Gallery</a></li>
+        </ul>
+    </nav>
+<main>
+        <div class="banner"><h4>Saturday = Preston Pinecone race in the Park! 8:00 a.m. 
+            Friday at the city park rangers station. </h4></div>
+        <h2>Preston Idaho</h2>
+        <div class="hero-container">
+            <div class="hero">
+                <picture class="hero-picture">
+                    <source srcset="../lesson12/images/home2.jpg" media="(min-width:35rem) and (max-width:65rem)">
+                    <source srcset="../lesson12/images/home1.jpg" media="(min-width:65rem)">
+                    <img class="hero-img" src="../Lesson12/images/home3.jpg" alt="image of mountain">
+                </picture>
+            </div>
+            <section class="weatherSum">
+                <h3>Weather Summary</h3>
+                <span id="imagesrc"></span> &nbsp; <img src="#" alt="#" id="icon">
+                <p><strong>Currently:</strong> <span id="currently"></span></p>
+                <p><strong>High:</strong> <span id="highTemp"></span></p>
+                <p><strong>Tempurature: </strong><span id="current-temp"></span></p>
+                <p><strong>Wind Chill:</strong> <span id="windChill"></span></p>
+                <p><strong>Humidity:</strong> <span id="humidity"></span>%</p>
+                <p><strong>Wind Speed:</strong> <span id="windSpeedMPH"></span></p>
+            </section>
+        </div>
+        <div class="forecast-container">
+            <h3 class="forecast-title">5 Day Forecast</h3>
+            <div class="forecast-table">
+                <div class="forecast-col">
+                    <span class="day"></span>
+                    <img class="forcastimg"  src="../Lesson12/images/iconfinder_weather-01_1530392.png" alt="weather">
+                    <p><span class="forecastTemp"></span>&#176;F</p>
+                </div>
+                <div class="forecast-col">
+                    <span class="day"></span>
+                    <img class="forcastimg"  src="../Lesson12/images/iconfinder_Snowy_5729379.png" alt="weather">
+                    <p><span class="forecastTemp"></span>&#176;F</p>
+                </div>
+                <div class="forecast-col">
+                    <span class="day"></span>
+                    <img class="forcastimg"  src="../Lesson12/images/iconfinder_Snowy_5729379.png" alt="weather">
+                    <p><span class="forecastTemp"></span>&#176;F</p>
+                </div>
+                <div class="forecast-col">
+                    <span class="day"></span>
+                    <img class="forcastimg" src="../Lesson12/images/iconfinder_weather-01_1530392.png" alt="weather">
+                    <p><span class="forecastTemp"></span>&#176;F</p>
+                </div>
+                <div class="forecast-col">
+                    <span class="day"></span>
+                    <img class="forcastimg"  src="../Lesson12/images/iconfinder_Snowy_5729379.png" alt="weather">
+                    <p><span class="forecastTemp"></span>&#176;F</p>
+                </div>
+            </div>
+        </div>
+        <div class="article-container">
+            <h4 class="article-title">Franklin County Farmers</h4>
+            <p class="article-content"> Franklin County has two large herds, one on either side of the county. Although a scenic attraction in fields near the highways, they also invade farmers’ storage of winter hay, 
+                sometimes bed down on the same roads school buses travel and show up in yards and orchards. 
+                These are the descendants of elk sent to Franklin County over a century ago, a gift of a young Idaho Fish and Game Department. 
+                Frank Steunenberg as the first state game warden in 1899. To enforce the Civil War era game laws of 1864.”
+                According to the Franklin County Citizen of February 1916, “State Game Warden Jones received a telegram from Franklin Lance, Secretary of the Interior, 
+                announcing that the government will let Idaho have 50 elk for use in game preserves in this state. Warden Jones said this afternoon that he had decided 
+                to place 25 in the preserve of Twin Falls and Cassia county and 25 in the preserves of Franklin and Oneida counties. This will dispose of the entire number. 
+                As soon as possible the transfer of the elk will take place. The residents responded generously. The plan was to install the herd inside the city park, 
+                temporarily, until the grass began to grow and then they would be taken beyond the city limits.</p>
+                <img class="articleimg" src="../Lesson12/images/preston-idaho-5419a2d1-c0b4-44ed-b712-319533be313-resize-750.jpeg"
+                alt="article image">
+        </div>
+        <div class="eventcard"></div>
+        <div class="contact-container">
+            <img class="prestonMap" src="../Lesson12/images/Preston.png" alt="Map of Preston">
+            <p class="contact"><strong>Sunnyside Weather</strong><br> 4545 Waterfall Dr.<br> &#9742; 208.969.1234<br> &#9993;
+                sunnysideweather@gmail.com</p>
+                <div class = "social">
+                    <a href = "https://www.facebook.com">
+                    <img src= "../Lesson12/images/iconfinder_facebook_291720.png" alt="Facebook Icon"></a>
+                    <a href = "https://www.instagram.com">
+                    <img src= "../Lesson12/images/iconfinder_instagram_2142569.png" alt="Instagram Icon"></a>
+                    <a href = "https://www.twitter.com">
+                    <img src= "../Lesson12/images/iconfinder_2018_social_media_popular_app_logo_twitter_3225183.png" alt="Twitter Icon"></a>
+                  </div>
+        </div>
+    </main>
+        <footer>
+<p>&copy;<span id="year"></span> | Sunnyside Weather | Attributions | <a href="../index.html">Andrew Bedford</a> | <span id="currentDate"></span></p>
+        </footer>   
+   <script src="js/weatherreportapi.js"></script>
+    <script src="js/events.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/banner.js"></script>
+    <script src="js/date.js"></script>
+</body>
+</html>

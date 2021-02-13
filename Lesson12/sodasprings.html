@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This weather site is for Soda Springs Idaho. 
+    This page will display weather and information in Preston."/>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/normalize.css">
+    <link rel="stylesheet" href="../Lesson12/css/small.css">
+    <link rel="stylesheet" href="../Lesson12/css/medium.css">
+    <link rel="stylesheet" href="../Lesson12/css/large.css">
+    <title>Sunnyside Weather | Soda Springs ID </title>
+</head>
+<body id="Soda Springs">
+<header>
+         <a href = "../Lesson9/index.html"> <img src= "../Lesson12/images/iconfinder_weather_2_2682849.png" alt="Sunnyside Logo"></a>           
+        <section>
+            <h1>Sunnyside Weather</h1>
+        <h3 class="motto">Whatever the weather, whatever the season Sunnyside</h3>
+    </section>
+    </header>
+    <nav>
+        <button onclick="toggleMenu()"> &#9776; Menu </button>
+        <ul id="menu" class="hide_navigation">
+            <li><a href="../lesson9/index.html">Home</a></li>
+            <li class="active"><a href="../Lesson12/preston.html"> Preston </a></li>
+            <li><a href="../Lesson12/sodasprings.html"> Soda Springs</a></li>
+            <li><a href="../Lesson12/fishhaven.html"> Fish Haven</a></li>
+            <li><a href="../Storm/stormcenter.html"> Storm Center</a></li>
+            <li><a href="../Gallery/gallery-7.html"> Gallery</a></li>
+        </ul>
+    </nav>
+<main>
+        <div class="banner"><h4>Friday = Soda Springs kayak race at the springs! 9:00 a.m. 
+            Friday at the city park rangers life guard station. </h4></div>
+        <h2>Soda Springs Idaho</h2>
+        <div class="hero-container">
+            <div class="hero">
+                <picture class="hero-picture">
+                    <source srcset="../" media="(min-width:35rem) and (max-width:65rem)">
+                    <source srcset=".." media="(min-width:65rem)">
+                    <img class="hero-img" src="../" alt="image of mountain">
+                </picture>
+            </div>
+            <section class="weatherSum">
+                <h3>Weather Summary</h3>
+                <span id="imagesrc"></span> &nbsp; <img src="#" alt="#" id="icon">
+                <p><strong>Currently:</strong> <span id="currently"></span></p>
+                <p><strong>High:</strong> <span id="highTemp"></span></p>
+                <p><strong>Tempurature: </strong><span id="current-temp"></span></p>
+                <p><strong>Wind Chill:</strong> <span id="windChill"></span></p>
+                <p><strong>Humidity:</strong> <span id="humidity"></span>%</p>
+                <p><strong>Wind Speed:</strong> <span id="windSpeedMPH"></span></p>
+            </section>
+        </div>
+        <div class="forecast-container">
+            <h3 class="forecast-title">5 Day Forecast</h3>
+            <div class="forecast-table">
+                <div class="forecast-col">
+                    <span class="day"></span>
+                    <img class="forcastimg"  src="../Lesson12/images/iconfinder_weather-01_1530392.png" alt="weather">
+                    <p><span class="forecastTemp"></span>&#176;F</p>
+                </div>
+                <div class="forecast-col">
+                    <span class="day"></span>
+                    <img class="forcastimg"  src="../Lesson12/images/iconfinder_Snowy_5729379.png" alt="weather">
+                    <p><span class="forecastTemp"></span>&#176;F</p>
+                </div>
+                <div class="forecast-col">
+                    <span class="day"></span>
+                    <img class="forcastimg"  src="../Lesson12/images/iconfinder_Snowy_5729379.png" alt="weather">
+                    <p><span class="forecastTemp"></span>&#176;F</p>
+                </div>
+                <div class="forecast-col">
+                    <span class="day"></span>
+                    <img class="forcastimg" src="../Lesson12/images/iconfinder_weather-01_1530392.png" alt="weather">
+                    <p><span class="forecastTemp"></span>&#176;F</p>
+                </div>
+                <div class="forecast-col">
+                    <span class="day"></span>
+                    <img class="forcastimg"  src="../Lesson12/images/iconfinder_Snowy_5729379.png" alt="weather">
+                    <p><span class="forecastTemp"></span>&#176;F</p>
+                </div>
+            </div>
+        </div>
+        <div class="article-container">
+            <h4 class="article-title">#</h4>
+            <p class="article-content"> ##</p>
+                <img class="articleimg" src="../Lesson12/images/preston-idaho-5419a2d1-c0b4-44ed-b712-319533be313-resize-750.jpeg"
+                alt="article image">
+        </div>
+        <div class="eventcard"></div>
+        <div class="contact-container">
+            <img class="prestonMap" src="../Lesson12/images/Preston.png" alt="Map of Preston">
+            <p class="contact"><strong>Sunnyside Weather</strong><br> 4545 Waterfall Dr.<br> &#9742; 208.969.1234<br> &#9993;
+                sunnysideweather@gmail.com</p>
+                <div class = "social">
+                    <a href = "https://www.facebook.com">
+                    <img src= "../Lesson12/images/iconfinder_facebook_291720.png" alt="Facebook Icon"></a>
+                    <a href = "https://www.instagram.com">
+                    <img src= "../Lesson12/images/iconfinder_instagram_2142569.png" alt="Instagram Icon"></a>
+                    <a href = "https://www.twitter.com">
+                    <img src= "../Lesson12/images/iconfinder_2018_social_media_popular_app_logo_twitter_3225183.png" alt="Twitter Icon"></a>
+                  </div>
+        </div>
+    </main>
+        <footer>
+<p>&copy;<span id="year"></span> | Sunnyside Weather | Attributions | <a href="../index.html">Andrew Bedford</a> | <span id="currentDate"></span></p>
+        </footer>   
+   <script src="js/weatherreportapi.js"></script>
+    <script src="js/events.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/banner.js"></script>
+    <script src="js/date.js"></script>
+</body>
+</html>
